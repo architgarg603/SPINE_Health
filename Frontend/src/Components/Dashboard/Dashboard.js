@@ -17,7 +17,7 @@ function Dashboard() {
     const camera = useRef();
     const player = useRef();
 
-    const URL = "https://teachablemachine.withgoogle.com/models/hZpnR1hwj/";
+    const URL = process.env.link;
     const videoConstraints = {
         width: 1280,
         height: 720,
